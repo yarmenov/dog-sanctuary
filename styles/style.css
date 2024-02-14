@@ -1,0 +1,15 @@
+body {
+  background-color: goldenrod;
+}
+h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+p {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
+/*font-family: "Poppins", sans-serif;
+font-family: "Playfair Display", serif; */
