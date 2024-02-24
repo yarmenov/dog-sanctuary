@@ -29,6 +29,25 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="index.html" title="Homepage"
+          ><img src="images/angel.jpg" alt="Furry Angel logo" class="logo"
+        /></a>
+        <ul>
+          <li>
+            <a href="index.html" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="about.html" title="About Furry Angels"> About</a>
+          </li>
+          <li><a href="dogs.html" title="Furry angels dogs "> Our Dogs</a></li>
+          <li>
+            <a href="contact.html" title="Contact Furry Angels"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -43,7 +62,7 @@
               support the sanctuary with direct donations, volunteering,
               fundraising and attending the adoption events.
             </p>
-            <a href="#" class="btn btn-branding">Meet our Dogs</a>
+            <a href="dogs.html" class="btn btn-branding">Meet our Dogs</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -54,6 +73,58 @@
           />
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Adoption Enquiry</h4>
+            <p class="text-muted">Let's find each puppy a home</p>
+          </div>
+          <div>
+            <a
+              href="contact.html"
+              title="Contact Furry Angels"
+              class="btn btn-branding mt-3"
+              >Contact us</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:furryangels@gmail.com"
+            title="Contact Furry Angels via email"
+            class="email-link"
+            >furryangels@gmail.com
+          </a>
+        </div>
+        <div class="social-links text-center">
+          <a
+            href="https://www.instagram.com/furryangels"
+            title="Instagram profile"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.github.com/furryangels"
+            title="Github profile"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/furryangels"
+            title="Facebook profile"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Yana Armenova and it is<a
+            href="https://github.com/yarmenov/dog-sanctuary.git"
+            target="_blank"
+          >
+            open-sourced</a
+          >.
+        </p>
+      </footer>
     </div>
   </body>
 </html>
